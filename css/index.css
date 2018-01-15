@@ -1,0 +1,204 @@
+			body{font-family: "微软雅黑";color: #000000;background-color: #F3F5F7;}
+			a{text-decoration: none;}
+			@font-face {
+				font-family: "Imv2"; 
+				src: url("imv2.ttf");
+			}
+			
+			#course_recommendations{
+				width: 1200px;
+				height: 272px;
+				margin: auto;
+				padding-top: 36px;
+			}
+			
+			#front-end_developer{
+				width: 1200px;
+				height: 392px;
+				margin: auto;
+				padding-top: 36px;
+			}
+			
+			.title{
+				width: 1200px;
+				height: 20px;
+				margin-bottom: 24px;
+				position: relative;
+			}
+			
+			.title>h3{
+				color: #07111B;
+				font:200 20px/20px "微软雅黑";
+				margin: 0;
+			}
+			
+			.title>a{
+				position: absolute;
+				color: #93999F;
+				font-size: 14px;
+				height: 20px;
+				top: 0;
+			
+				}
+			
+			.icon_right{
+				font-family: "Imv2";
+				font-size: 16px;
+				margin-left: 7px;
+			}
+			
+			.icon_right:before {
+				content: "\e409";
+				}
+			
+			.course_card,.topic_card,.path_card{
+				border-radius: 4px;
+				background-repeat: no-repeat;
+				overflow: hidden;
+			}
+			
+			.course_card{
+				width: 224px;
+				height: 228px;
+				margin-right: 20px;
+				background-color: #FFFFFF;
+				float: left;
+				box-shadow: 0 4px 8px 0 rgba(7,17,27,0.1);
+				transition: 0.3s all linear;
+			}
+			
+			#course_card_e,#course_card_i{
+				margin-right: 0px;
+			}
+			
+			.course_card>a{
+				width: 224px;
+				height: 228px;
+				display: block;
+			}
+			
+			.course_card_title {
+				width: 184px;
+				height: 48px;
+				padding: 0 20px;
+				background-origin: padding-box;
+			}
+			
+			.course_card_title>span{
+				color: #FFFFFF;
+				font: bold 12px/48px "微软雅黑";
+				margin-right: 10px;
+			}
+			
+			#course_card_a{background-image: url(../img/1.jpg);}
+			#course_card_b{background-image: url(../img/2.jpg);}
+			#course_card_c{background-image: url(../img/3.jpg);}
+			#course_card_d{background-image: url(../img/4.jpg);}
+			#course_card_e{background-image: url(../img/5.jpg);}
+			#course_card_f{background-image: url(../img/9.jpg);}
+			#course_card_g{background-image: url(../img/10.jpg);}
+			#course_card_h{background-image: url(../img/11.jpg);}
+			#course_card_i{background-image: url(../img/12.jpg);}
+			
+			#course_card_title_a{background-image: linear-gradient(270deg, rgba(255, 150, 0, 0.7), rgb(255, 150, 0));}
+			#course_card_title_b{background-image: linear-gradient(270deg, rgba(255, 115, 155, 0.7), rgb(255, 115, 155));}
+			#course_card_title_c{background-image: linear-gradient(270deg, rgba(0, 185, 90, 0.7), rgb(0, 185, 90));}
+			#course_card_title_d{background-image: linear-gradient(270deg, rgba(255, 115, 155, 0.7), rgb(255, 115, 155));}
+			#course_card_title_e{background-image: linear-gradient(270deg, rgba(210, 115, 230, 0.7), rgb(210, 115, 230));}
+			#course_card_title_f{background-image: linear-gradient(270deg, rgba(75, 150, 220, 0.7), rgb(75, 150, 220));}
+			#course_card_title_g{background-image: linear-gradient(270deg, rgba(210, 115, 230, 0.7), rgb(210, 115, 230));}
+			#course_card_title_h{background-image: linear-gradient(270deg, rgba(210, 115, 230, 0.7), rgb(210, 115, 230));}
+			#course_card_title_i{background-image: linear-gradient(270deg, rgba(210, 115, 230, 0.7), rgb(210, 115, 230));}
+			
+			.course_card_content{
+				width: 176px;
+				height: 148px;
+				padding: 16px 24px;
+				background-color: #FFFFFF;
+				line-height: 24px;
+				position: relative;
+			}
+			
+			.course_card_content>h3{
+				color: #07111B;
+				font-size: 14px;
+				margin: 0;
+				font-weight: 400;
+			}
+			
+			.course_card_content>p{
+				color: #93999F;
+				font-size: 12px;
+				margin: 8px 0;
+			}
+			
+			.course_card_content>div{
+				color: #93999F;
+				font-size: 12px;
+				position: absolute;
+				left: 24px;
+				right: 24px;
+				bottom: 24px;
+			}
+			
+			.course_card_content div span{
+				margin: 0 6px 0 4px;
+				font-weight: 800;
+			}
+			
+			.topic_card{
+				width: 468px;
+				height: 100px;
+				float: left;
+				display: block;
+			}
+			
+			.path_card{
+				width: 224px;
+				height: 348px;
+				margin-right: 20px;
+				float: left;
+				position: relative;
+			}
+			
+			.path_card>a{
+				color: #FFFFFF;
+				display: block;
+				width: 176px;
+				height: 180px;
+				padding: 24px;
+			}
+			
+			.icon_path{
+				font-family: "Imv2";
+				font-size: 20px;
+				margin-right: 10px;
+			}
+			
+			.icon_path:before {
+				content: "\e91a";
+				}
+			
+			.path_card>div{
+				color: #FFFFFF;
+				width: 170px;
+				height: 33px;
+				border-top: 1px solid rgba(255,255,255,0.4);
+    			padding: 12px 3px;
+    			position: absolute;
+    			bottom: 8px;
+    			left: 24px;
+    			font-size: 12px;
+    			line-height: 28px;
+    			cursor: pointer;
+    			}
+    			
+			.icon_arrow{
+				font-family: "Imv2";
+				font-size: 12px;
+				margin-left: 8px;
+			}
+			
+			.icon_arrow:before {
+				content: "\e5c8";
+				}
